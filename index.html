@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Content Pack — Portfolio Sample</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Plus Jakarta Sans', sans-serif; background: #F2F0EC; color: #1A1A1A; min-height: 100vh; padding: 40px 24px; }
+
+  .portfolio-badge { background: #1A1A1A; color: #fff; text-align: center; padding: 10px 20px; border-radius: 8px; font-size: 13px; margin-bottom: 32px; max-width: 860px; margin-left: auto; margin-right: auto; }
+  .portfolio-badge span { color: #F4C430; font-weight: 700; }
+
+  .page-header { max-width: 860px; margin: 0 auto 36px; }
+  .page-header h1 { font-size: 28px; font-weight: 800; color: #0D0D0D; margin-bottom: 6px; }
+  .page-header p { font-size: 15px; color: #666; }
+  .client-tag { display: inline-block; background: #fff; border: 1px solid #DDD; padding: 6px 14px; border-radius: 20px; font-size: 13px; color: #444; margin-top: 10px; }
+  .client-tag strong { color: #1A1A1A; }
+
+  .cards-wrap { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px; }
+
+  .content-card { background: #fff; border-radius: 16px; overflow: hidden; border: 1px solid #E5E2DC; }
+  .card-header { padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #F0EDE8; }
+  .platform-pill { display: flex; align-items: center; gap: 8px; }
+  .platform-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+  .platform-name { font-weight: 600; font-size: 14px; color: #1A1A1A; }
+  .post-type { font-size: 12px; color: #888; font-weight: 500; }
+  .card-meta-row { display: flex; gap: 8px; align-items: center; }
+  .meta-chip { background: #F5F5F1; color: #555; font-size: 12px; padding: 4px 10px; border-radius: 20px; }
+
+  .card-body { padding: 24px; }
+  .caption-text { font-size: 15.5px; color: #1A1A1A; line-height: 1.75; white-space: pre-line; }
+  .hashtags { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .hashtag { background: #EEF2FF; color: #3B5BDB; font-size: 12px; padding: 4px 10px; border-radius: 20px; font-weight: 500; }
+
+  .card-footer { padding: 14px 24px; border-top: 1px solid #F0EDE8; display: flex; gap: 16px; align-items: center; }
+  .footer-label { font-size: 12px; color: #999; }
+  .footer-val { font-size: 13px; color: #444; font-weight: 500; }
+  .copy-btn { margin-left: auto; background: #1A1A1A; color: #fff; border: none; padding: 8px 18px; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: inherit; transition: opacity 0.2s; }
+  .copy-btn:hover { opacity: 0.8; }
+  .copy-btn.copied { background: #2D7A4F; }
+
+  /* Instagram */
+  .insta .platform-icon { background: linear-gradient(135deg, #f09433,#e6683c,#dc2743,#cc2366,#bc1888); color: white; }
+  /* Facebook */
+  .fb .platform-icon { background: #1877F2; color: white; }
+  /* LinkedIn */
+  .li .platform-icon { background: #0A66C2; color: white; }
+  /* WhatsApp */
+  .wa .platform-icon { background: #25D366; color: white; }
+
+  .note-box { max-width: 860px; margin: 32px auto 0; background: #FFF8E1; border: 1px dashed #F4C430; border-radius: 12px; padding: 18px 24px; font-size: 14px; color: #7A5500; }
+  .note-box strong { color: #5C3D00; display: block; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+
+<div class="portfolio-badge">📱 Portfolio sample — Social Media Content Pack by <span>Shivam</span> (Social Media Manager, Lucknow)</div>
+
+<div class="page-header">
+  <h1>Social Media Content Pack</h1>
+  <p>5 ready-to-post captions across platforms — created for a coaching institute client sample.</p>
+  <div class="client-tag">Sample client: <strong>Sharma Classes, Lucknow</strong> · Education / Coaching</div>
+</div>
+
+<div class="cards-wrap">
+
+  <!-- POST 1 - Instagram -->
+  <div class="content-card insta">
+    <div class="card-header">
+      <div class="platform-pill">
+        <div class="platform-icon">📸</div>
+        <div>
+          <div class="platform-name">Instagram</div>
+          <div class="post-type">Motivational post</div>
+        </div>
+      </div>
+      <div class="card-meta-row">
+        <span class="meta-chip">Engagement post</span>
+        <span class="meta-chip">Monday</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="caption-text">Your rank is not your destiny. Your dedication is. 💪
+
+Every IIT and NEET topper once sat exactly where you are right now — unsure, nervous, wondering if they had what it takes.
+
+The difference? They didn't stop.
+
+This week, give 100% to your preparation. One focused hour today is better than 10 distracted hours tomorrow.
+
+At Sharma Classes, we don't just teach — we build the mindset that cracks entrance exams.
+
+Drop a 🔥 if you're ready to make this week count!
+
+📞 Free demo class: 98765 43210
+📍 Hazratganj, Lucknow</div>
+      <div class="hashtags">
+        <span class="hashtag">#JEE2026</span>
+        <span class="hashtag">#NEET2026</span>
+        <span class="hashtag">#SharmaClasses</span>
+        <span class="hashtag">#LucknowCoaching</span>
+        <span class="hashtag">#StudyMotivation</span>
+        <span class="hashtag">#IITAspirant</span>
+        <span class="hashtag">#NEETPreparation</span>
+        <span class="hashtag">#Lucknow</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span class="footer-label">Best time to post:</span><span class="footer-val">Mon 7–9 PM</span>
+      <span class="footer-label">Expected reach:</span><span class="footer-val">High (motivational content)</span>
+      <button class="copy-btn" onclick="copyText(this, 'ig1')">Copy Caption</button>
+    </div>
+  </div>
+
+  <!-- POST 2 - Facebook -->
+  <div class="content-card fb">
+    <div class="card-header">
+      <div class="platform-pill">
+        <div class="platform-icon">👥</div>
+        <div>
+          <div class="platform-name">Facebook</div>
+          <div class="post-type">Result announcement</div>
+        </div>
+      </div>
+      <div class="card-meta-row">
+        <span class="meta-chip">Achievement</span>
+        <span class="meta-chip">Viral potential</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="caption-text">🎉 PROUD MOMENT FOR THE SHARMA CLASSES FAMILY! 🎉
+
+We are thrilled to announce that 318 of our students have secured seats in IITs and NITs in JEE 2025 — our best result ever!
+
+And 542 students cleared NEET 2025 — with 12 of them securing seats in AIIMS!
+
+This is not just a number. Behind every result is a student who woke up early, stayed late, and never gave up — and a teacher who believed in them when the path felt impossible.
+
+To every parent who trusted us with your child's dream — THANK YOU. This is for you.
+
+Admissions now open for 2026 batch.
+📞 Call: 98765 43210
+📍 Visit us: Hazratganj, Lucknow
+
+Tag a student who deserves to celebrate today! 👇</div>
+      <div class="hashtags">
+        <span class="hashtag">#JEEResults2025</span>
+        <span class="hashtag">#NEETResults2025</span>
+        <span class="hashtag">#SharmaClasses</span>
+        <span class="hashtag">#IITSelection</span>
+        <span class="hashtag">#AIIMSLucknow</span>
+        <span class="hashtag">#ProudMoment</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span class="footer-label">Best time to post:</span><span class="footer-val">Results day, 6–8 PM</span>
+      <span class="footer-label">Type:</span><span class="footer-val">Milestone announcement</span>
+      <button class="copy-btn" onclick="copyText(this, 'fb2')">Copy Caption</button>
+    </div>
+  </div>
+
+  <!-- POST 3 - Instagram Story Style -->
+  <div class="content-card insta">
+    <div class="card-header">
+      <div class="platform-pill">
+        <div class="platform-icon">📸</div>
+        <div>
+          <div class="platform-name">Instagram</div>
+          <div class="post-type">Admission offer post</div>
+        </div>
+      </div>
+      <div class="card-meta-row">
+        <span class="meta-chip">Lead generation</span>
+        <span class="meta-chip">Urgent CTA</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="caption-text">⚠️ LAST FEW SEATS REMAINING — JEE 2026 BATCH ⚠️
+
+Every year, hundreds of students miss out because they wait too long. Don't let that be you.
+
+Here's what you get at Sharma Classes:
+✅ IIT & AIIMS qualified faculty
+✅ Daily doubt-clearing sessions
+✅ 2,000+ chapter-wise tests
+✅ Full syllabus coverage in 12 months
+✅ FREE demo class before joining
+
+Early admission discount: Save ₹8,000 if you enroll before 31st May.
+
+DM us "JEE2026" for details OR
+📞 Call/WhatsApp: 98765 43210
+
+Don't wait. Your IIT seat is waiting. 🎯</div>
+      <div class="hashtags">
+        <span class="hashtag">#JEECoachingLucknow</span>
+        <span class="hashtag">#LucknowStudents</span>
+        <span class="hashtag">#AdmissionsOpen</span>
+        <span class="hashtag">#IITCoaching</span>
+        <span class="hashtag">#UPStudents</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span class="footer-label">Best time to post:</span><span class="footer-val">Wed–Fri, 6 PM</span>
+      <span class="footer-label">Type:</span><span class="footer-val">Conversion post</span>
+      <button class="copy-btn" onclick="copyText(this, 'ig3')">Copy Caption</button>
+    </div>
+  </div>
+
+  <!-- POST 4 - LinkedIn -->
+  <div class="content-card li">
+    <div class="card-header">
+      <div class="platform-pill">
+        <div class="platform-icon">💼</div>
+        <div>
+          <div class="platform-name">LinkedIn</div>
+          <div class="post-type">Educational thought leadership</div>
+        </div>
+      </div>
+      <div class="card-meta-row">
+        <span class="meta-chip">B2B / Parent audience</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="caption-text">After 15 years of coaching JEE and NEET students, here's the #1 thing that separates toppers from the rest.
+
+It's not intelligence.
+It's not even hard work.
+
+It's the quality of their revision system.
+
+Most students study for 8–10 hours a day but revise only once before exams. Toppers revise every chapter at least 4–5 times — in decreasing intervals.
+
+At Sharma Classes, we build this into our structure:
+→ Weekly chapter revision tests
+→ Monthly full-syllabus mock exams
+→ Pre-exam intensive revision bootcamps
+
+The result: our students don't just learn the content. They OWN it.
+
+If your child is preparing for JEE or NEET 2026, I'd welcome a conversation.
+
+📞 98765 43210 | 📍 Hazratganj, Lucknow</div>
+      <div class="hashtags">
+        <span class="hashtag">#Education</span>
+        <span class="hashtag">#JEECoaching</span>
+        <span class="hashtag">#NEETPrep</span>
+        <span class="hashtag">#ParentingInIndia</span>
+        <span class="hashtag">#Lucknow</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span class="footer-label">Best time to post:</span><span class="footer-val">Tue–Thu, 9–10 AM</span>
+      <span class="footer-label">Type:</span><span class="footer-val">Authority building</span>
+      <button class="copy-btn" onclick="copyText(this, 'li4')">Copy Caption</button>
+    </div>
+  </div>
+
+  <!-- POST 5 - WhatsApp Broadcast -->
+  <div class="content-card wa">
+    <div class="card-header">
+      <div class="platform-pill">
+        <div class="platform-icon">💬</div>
+        <div>
+          <div class="platform-name">WhatsApp Broadcast</div>
+          <div class="post-type">Parent communication message</div>
+        </div>
+      </div>
+      <div class="card-meta-row">
+        <span class="meta-chip">High open rate</span>
+        <span class="meta-chip">Direct conversion</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="caption-text">Namaste! 🙏
+
+This is Sharma Classes, Lucknow.
+
+We are pleased to inform you that admissions are now OPEN for our JEE Main & Advanced and NEET 2026 batches.
+
+🗓 New batch starts: 1st June 2025
+🏫 Mode: Offline (Hazratganj, Lucknow)
+💰 Early bird discount: ₹8,000 off (valid till 31st May)
+📚 Free study material included
+
+Our 2025 results:
+✅ 318 IIT/NIT selections
+✅ 542 NEET qualifiers
+✅ 12 AIIMS selections
+
+To book a FREE demo class or speak with our counsellor, please reply to this message or call:
+
+📞 98765 43210
+
+Limited seats. First come, first served.
+
+— Team Sharma Classes</div>
+      <div class="hashtags">
+        <span class="hashtag">WhatsApp friendly format</span>
+        <span class="hashtag">No hashtags needed</span>
+      </div>
+    </div>
+    <div class="card-footer">
+      <span class="footer-label">Send time:</span><span class="footer-val">Weekday 10–11 AM or 7–8 PM</span>
+      <span class="footer-label">Type:</span><span class="footer-val">Direct response message</span>
+      <button class="copy-btn" onclick="copyText(this, 'wa5')">Copy Caption</button>
+    </div>
+  </div>
+
+</div>
+
+<div class="note-box">
+  <strong>📌 Portfolio Note</strong>
+  This content pack is a sample created by Shivam Chauhan (Freelance Social Media Manager, Lucknow) to demonstrate social media content writing services. I create custom content packs for any business — coaching institutes, restaurants, clinics, retail shops, and more. Contact: [your email/phone here]
+</div>
+
+<script>
+const captions = {
+  ig1: document.querySelector('.content-card.insta:nth-child(1) .caption-text')?.textContent,
+  fb2: document.querySelector('.content-card.fb .caption-text')?.textContent,
+  ig3: document.querySelector('.content-card.insta:nth-child(3) .caption-text')?.textContent,
+  li4: document.querySelector('.content-card.li .caption-text')?.textContent,
+  wa5: document.querySelector('.content-card.wa .caption-text')?.textContent,
+};
+function copyText(btn, key) {
+  const cards = document.querySelectorAll('.content-card');
+  const idx = {'ig1':0,'fb2':1,'ig3':2,'li4':3,'wa5':4}[key];
+  const text = cards[idx].querySelector('.caption-text').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy Caption'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+</script>
+</body>
+</html>
